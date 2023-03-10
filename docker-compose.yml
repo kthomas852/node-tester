@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  node-test:
+    build: .
+    image: kthomas365/node-tester
+    container_name: node-tester
+#    ports:
+#      - 4045:4045
