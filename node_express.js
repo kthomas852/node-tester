@@ -11,4 +11,4 @@ app.get("/ping", (req, res)=>{
     res.send("URL Hit: " + req.method + ' to ' + req.headers.host + req.url);
 });
 
-app.listen(PORT, ()=> console.log(`Now listening on port ${PORT}`));
+app.listen(PORT, ()=> console.log(`Now listening on port: ${PORT}`));
